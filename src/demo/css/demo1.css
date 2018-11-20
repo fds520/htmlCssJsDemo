@@ -1,0 +1,35 @@
+.demo1{
+    height: 200px;
+    background-image: url("../images/17.jpg");
+}
+.textDemo{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: aqua;
+}
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+}
+.heziDemo{
+    color: red;
+    background-color: black;
+    height: 300px;
+    width: 300px;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-right:10px;
+    margin-left:10px;
+}
+.heziDemo2{
+    color: red;
+    background-color: black;
+    height: 300px;
+    width: 300px;
+    margin-top:10px;
+    margin-left:10px;
+}
