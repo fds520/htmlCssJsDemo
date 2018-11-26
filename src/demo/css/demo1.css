@@ -1,5 +1,9 @@
 .demo1{
-    height: 200px;
+    color: red;
+    height: 100px;
+    /*垂直居中*/
+    text-align: center;
+    line-height: 100px;
     background-image: url("../images/17.jpg");
 }
 .textDemo{
@@ -8,6 +12,7 @@
 a{
     text-decoration: none;
     color: aqua;
+    float: left;
 }
 a:link{
     text-decoration: none;
@@ -16,20 +21,26 @@ a:hover{
     color: black;
 }
 .heziDemo{
-    color: red;
-    background-color: black;
-    height: 300px;
-    width: 300px;
-    margin-top:10px;
-    margin-bottom:10px;
-    margin-right:10px;
-    margin-left:10px;
+    float: left;
+    color: aqua;
+    background: linear-gradient(red, blue, chartreuse);
+    height: 100px;
+    width: 100px;
+    border: 10px black solid;
 }
 .heziDemo2{
+    float: left;
     color: red;
     background-color: black;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+}
+/*图片样式*/
+.imgDemo1{
     height: 300px;
     width: 300px;
-    margin-top:10px;
-    margin-left:10px;
+    border-radius: 10px;
+}
+.imgDiv{
 }
