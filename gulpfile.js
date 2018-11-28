@@ -17,12 +17,12 @@ const reload = browserSync.reload;
 // 静态服务器 + 监听 less/html 文件
 gulp.task('server', function () {
   browserSync.init({
-    server: "./src/demo/"
+    server: "./src/taobao/"
   });
-  gulp.watch("./src/demo/html/*.html").on('change', reload);
-  gulp.watch("./src/demo/js/*.js").on('change', reload);
-  gulp.watch("./src/demo/css/*.css").on('change', reload);
-  gulp.watch("./src/images/*").on('change', reload);
+  gulp.watch("./src/*/html/*.html").on('change', reload);
+  gulp.watch("./src/*/js/*.js").on('change', reload);
+  gulp.watch("./src/*/css/*.css").on('change', reload);
+  gulp.watch("./src/*/images/*").on('change', reload);
 });
 
 // 打包工具
