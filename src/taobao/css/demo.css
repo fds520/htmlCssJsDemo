@@ -1,6 +1,9 @@
 *{
     margin: 0px;
     padding: 0px;
+    list-style: none;
+    /*下划线去掉*/
+    text-decoration: none;
 }
 ul{
     list-style:none;
